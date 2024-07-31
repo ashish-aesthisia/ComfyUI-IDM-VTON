@@ -43,7 +43,7 @@ def get_down_block(
     transformer_layers_per_block: int = 1,
     num_attention_heads: Optional[int] = None,
     resnet_groups: Optional[int] = None,
-    cross_attention_dim: Optional[int] = None,
+    cross_attention_dim: Optional[int] = 1280,
     downsample_padding: Optional[int] = None,
     dual_cross_attention: bool = False,
     use_linear_projection: bool = False,
